@@ -14,7 +14,7 @@ if a == 1:
     os.system('cd yay')
     os.system('makepkg -si')
     os.system('sudo pacman -S python-typer')
-    os.system("yay -S yay -S python-inquirer")
+    os.system("yay -S python-inquirer")
     os.system('sudo pacman -S python-tabulate')
     os.system('sudo pacman -S python-colorama')
     print('done!')

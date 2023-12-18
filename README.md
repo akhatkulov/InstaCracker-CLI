@@ -1,1 +1,2 @@
 # UzChipher-WinAPP
+# InstaCraker-CLI

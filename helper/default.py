@@ -8,7 +8,7 @@ from tabulate import tabulate
 
 class default_start(object):
     def __init__(self,username):
-        self.target = username
+        self.user = username
 
         try:
             Combo = "default_w.txt"
@@ -19,7 +19,6 @@ class default_start(object):
         except:
             print(' The tool was arrested exit ')
             sys.exit()
-
         with open("default_w.txt", 'r+') as x:
             Combolist = x.read().splitlines()
         thread = []

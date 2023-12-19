@@ -52,7 +52,7 @@ def New_Br(user, pwd):
 
 
 def w10_start():
-    username = typer.prompt(typer.style("Enter a Username:",fg=typer.colors.GREEN))
+    username = typer.prompt(typer.style("--[x]-- Enter a username",fg=typer.colors.GREEN))
     for q in letters.letters:
         for w in letters.letters:
             for e in letters.letters:

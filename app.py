@@ -8,9 +8,11 @@ import colorama
 from parts import *
 from helper import *
 def main(status:str = typer.Optional('home',help="Status"),username: str = typer.Optional('none'),passwd_w:str=typer.Optional('-1')):
-    typer.echo("hello world")
+
     if status == "home":
-      home_page()
+          home_page()
+          print(9)
+          table()
     elif passwd_w == "-6w":
       w6_start()
     elif passwd_w == "-7w":

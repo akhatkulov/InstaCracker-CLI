@@ -5,83 +5,8 @@ from random import randint
 from six.moves import input
 import typer 
 from tabulate import tabulate
-letters = [
-    'q',
-    'w',
-    'e',
-    'r',
-    't',
-    'y',
-    'u',
-    'i',
-    'o',
-    'p',
-    'a',
-    's',
-    'd',
-    'f',
-    'g',
-    'h',
-    'j'
-    'k',
-    'l',
-    'z',
-    'x',
-    'c',
-    'v',
-    'b',
-    'n',
-    'm',
-    'Q',
-    'W',
-    'E',
-    'R',
-    'T',
-    'Y',
-    'U',
-    'I',
-    'O',
-    'P',
-    'A',
-    'S',
-    'D',
-    'F',
-    'G',
-    'H',
-    'J'
-    'K',
-    'L',
-    'Z',
-    'X',
-    'C',
-    'V',
-    'B',
-    'N',
-    'M',
-    '0',
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    '_',
-    '!',
-    '@',
-    '#',
-    '$',
-    '%',
-    '^',
-    '&',
-    '*',
-    '(',
-    ')',
-    '-',
-    '+',
-    '=',
+letters = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j''k','l','z','x','c','v','b','n','m','Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C',
+    'V','B','N','M','0','1','2','3','4','5','6','7','8','9','_','!','@','#','$','%','^','&','*','(',')','-','+','=',
 ]
 
 def New_Br(user, pwd):
@@ -128,20 +53,20 @@ def New_Br(user, pwd):
                     x.write(user + ':' + pwd + '\n')
 def w14_start():
     username = typer.prompt(typer.style("--[x]-- Enter a username",fg=typer.colors.GREEN))
-    for q in letters.letters:
-        for w in letters.letters:
-            for e in letters.letters:
-                for r in letters.letters:
-                    for t in letters.letters:
-                        for y in letters.letters:
-                            for u in letters.letters:
-                                for i in letters.letters:
-                                    for o in letters.letters:
-                                        for p in letters.letters:
-                                            for a in letters.letters:
-                                                for s in letters.letters:
-                                                    for d in letters.letters:
-                                                        for f in letters.letters:
+    for q in letters:
+        for w in letters:
+            for e in letters:
+                for r in letters:
+                    for t in letters:
+                        for y in letters:
+                            for u in letters:
+                                for i in letters:
+                                    for o in letters:
+                                        for p in letters:
+                                            for a in letters:
+                                                for s in letters:
+                                                    for d in letters:
+                                                        for f in letters:
                                                             q=q+w+e+r+t+y+u+i+o+p+a+s+d+f
                                                             New_Br(username, q)
                                                             q = ""

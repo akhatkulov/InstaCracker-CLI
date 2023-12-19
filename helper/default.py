@@ -20,7 +20,7 @@ class default_start(object):
             print(' The tool was arrested exit ')
             sys.exit()
 
-        with open("default_w.txt", 'r') as x:
+        with open("default_w.txt", 'r+') as x:
             Combolist = x.read().splitlines()
         thread = []
         self.Coutprox = 0

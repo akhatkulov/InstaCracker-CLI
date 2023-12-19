@@ -4,7 +4,6 @@ import requests, sys, threading, time, os, random
 from random import randint
 from six.moves import input
 import typer 
-import inquirer
 from tabulate import tabulate
 import letters
 

@@ -64,5 +64,3 @@ def w6_start():
                                     q=q+w+e+r+t+y+o
                                     New_Br(username, q)
                                     q = ""
-
-w6_start()

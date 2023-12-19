@@ -51,8 +51,7 @@ def New_Br(user, pwd):
                 print(tabulate(pass_table,tablefmt='psql'))
                 with open('results_NeedVerfiy.txt', 'a') as x:
                     x.write(user + ':' + pwd + '\n')
-def w12_start():
-    username = typer.prompt(typer.style("--[x]-- Enter a username"))
+def w12_start(username):
     for q in letters:
         for w in letters:
             for e in letters:

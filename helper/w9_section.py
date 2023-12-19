@@ -52,8 +52,7 @@ def New_Br(user, pwd):
                 with open('results_NeedVerfiy.txt', 'a') as x:
                     x.write(user + ':' + pwd + '\n')
 
-def w9_start():
-    username = typer.prompt(typer.style("--[x]-- Enter a username",fg=typer.colors.GREEN))               
+def w9_start(username):      
     for q in letters:
         for w in letters:
             for e in letters:

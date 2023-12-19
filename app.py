@@ -77,7 +77,60 @@ def main(status: Optional[str] = typer.Argument("home"), target: Optional[str] =
         mode = [
           inquirer.List(
             "mode",
-            message="Parol uzunligini tanlang",
+            message="Выберите длину пароля",
+            choices=[
+              typer.style("обычный",fg=typer.colors.GREEN),
+              typer.style("6",fg=typer.colors.GREEN),
+              typer.style("7",fg=typer.colors.GREEN),
+              typer.style("8",fg=typer.colors.GREEN),
+              typer.style("9",fg=typer.colors.GREEN),
+              typer.style("10",fg=typer.colors.GREEN),
+              typer.style("11",fg=typer.colors.GREEN),
+              typer.style("12",fg=typer.colors.GREEN),
+              typer.style("13",fg=typer.colors.GREEN),
+              typer.style("14",fg=typer.colors.GREEN),
+              
+            ]
+          ),
+        ]
+        y = inquirer.prompt(mode)
+        if "обычный" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          default_start(user)
+        elif "6" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w6_start(user)
+        elif "7" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w7_start(user)
+        elif "8" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w8_start(user)
+        elif "9" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w9_start(user)
+        elif "10" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w10_start(user)
+        elif "11" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w11_start(user)
+        elif "12" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w12_start(user)
+        elif "13" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w13_start(user)
+        elif "14" in y["mode"]:
+          user = typer.prompt(f"{typer.style('Введите имя пользователя',fg=typer.colors.GREEN)}")
+          w14_start(user)
+
+######################## English Section ################
+      if "English" in x["language"]:
+        mode = [
+          inquirer.List(
+            "mode",
+            message="Choose a password length",
             choices=[
               typer.style("odatiy",fg=typer.colors.GREEN),
               typer.style("6",fg=typer.colors.GREEN),
@@ -95,34 +148,34 @@ def main(status: Optional[str] = typer.Argument("home"), target: Optional[str] =
         ]
         y = inquirer.prompt(mode)
         if "odatiy" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           default_start(user)
         elif "6" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w6_start(user)
         elif "7" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w7_start(user)
         elif "8" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w8_start(user)
         elif "9" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w9_start(user)
         elif "10" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w10_start(user)
         elif "11" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w11_start(user)
         elif "12" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w12_start(user)
         elif "13" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w13_start(user)
         elif "14" in y["mode"]:
-          user = typer.prompt(f"{typer.style('Foydalanuvchi nomini kiriting',fg=typer.colors.GREEN)}")
+          user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           w14_start(user)
     elif status == "hack--6w":
       w6_start(target)

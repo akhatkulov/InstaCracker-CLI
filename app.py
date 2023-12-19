@@ -7,27 +7,30 @@ import colorama
 ###################
 from parts import *
 from helper import *
-def main(status:str = typer.Optional('home',help="Status"),username: str = typer.Optional('none'),passwd_w:str=typer.Optional('-1')):
+#############################
 
+
+def main(status: Optional[str]= typer.Argument("home")):
+    home_page()
     if status == "home":
           home_page()
-    elif passwd_w == "-6w":
+    elif status == "-6w":
       w6_start()
-    elif passwd_w == "-7w":
+    elif status == "-7w":
       w7_start()
-    elif passwd_w == '-8w':
+    elif status == '-8w':
       w8_start()
-    elif passwd_w == "-9w":
+    elif status == "-9w":
       w9_start()
-    elif passwd_w == "-10w":
+    elif status == "-10w":
       w10_start()
-    elif passwd_w == "-11w":
+    elif status == "-11w":
       w11_start()
-    elif passwd_w == '-12w':
+    elif status == '-12w':
       w12_start()
-    elif passwd_w == '-13w':
+    elif status == '-13w':
       w13_start()
-    elif passwd_w == "-14w":
+    elif status == "-14w":
       w14_start()
     else:
       default_start()

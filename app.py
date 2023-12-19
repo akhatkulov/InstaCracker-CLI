@@ -11,8 +11,6 @@ def main(status:str = typer.Optional('home',help="Status"),username: str = typer
 
     if status == "home":
           home_page()
-          print(9)
-          table()
     elif passwd_w == "-6w":
       w6_start()
     elif passwd_w == "-7w":

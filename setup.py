@@ -22,6 +22,7 @@ if a == 1:
 elif a == 2:
     print('Installing...')
     os.system('pip install typer')
+    os.system('pip install requests')
     os.system('pip install colorama')
     os.system('pip install inquirer')
     os.system('pip install tabulate')
@@ -31,6 +32,7 @@ elif a == 3:
     print('Installing...')
     os.system('pip install typer')
     os.system('pip install colorama')
+    os.system('pip install requests')
     os.system('pip install inquirer')
     os.system('pip install tabulate')
     print('done!')
@@ -47,6 +49,7 @@ elif a == 4:
 else:
     print('Installing...')
     os.system('pip install typer')
+    os.system('pip install requests')
     os.system('pip install inquirer')
     os.system('pip install tabulate')
     os.system('pip install colorama')

@@ -5,10 +5,10 @@ The author does not respond to your actions</b></i></i> <br>
 <p></p> <br>
 <hr>
 <h1>💡Questions:</h1>
-<h3><a href="https://github.com/akhatkulov/UzChipher-CLI#install">How to install?</a></h3>
-<h3><a href="https://github.com/akhatkulov/UzChipher-CLI#use">How to use?</a></h3>
-<h3><a href="https://github.com/akhatkulov/UzChipher-CLI#cipher_types">Why do we need it?</a></h3>
-<h3><a href="https://github.com/akhatkulov/UzChipher-CLI#lang">What languages ​​does the program work in?</a></h3>
+<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#install">How to install?</a></h3>
+<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#use">How to use?</a></h3>
+<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#crack_types">Why do we need it?</a></h3>
+<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#lang">What languages ​​does the program work in?</a></h3>
 
 <h1 id="install">📁	How to install?</h1>
 <h3>There are two ways to install the program:</h3>

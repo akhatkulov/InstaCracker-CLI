@@ -52,7 +52,7 @@ Run:<code>python3 app.py</code>
 <hr>
 
 <b id="crack_types">
-  ```
+```
 ┎  Crack Types 
 ╏
 ╔  Caesar

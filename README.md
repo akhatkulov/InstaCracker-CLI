@@ -22,10 +22,10 @@ python3 setup.py
 <h4>➖The second way:</h4>
 ```
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
-cd InstaCracker-CLI
+cd InstaCracer-CLI
 ```
 <h4>➖and install this libraries:</h4>
-```
+<pre>
 ┎  Libraries
 ╏
 ╔  Typer
@@ -33,7 +33,7 @@ cd InstaCracker-CLI
 ╠  Requests
 ╠  Inquirer
 ╚  Tabulate
-```
+</pre>
 <hr>
 <h1 id="use"> 📋How to use? </h1>
 <h3>There are two ways to use it:</h3>
@@ -46,21 +46,21 @@ Run:<code>python3 app.py</code>
 <hr>
 
 <b id="crack_types">
-```
+<pre>
 ┎  Crack Types 
 ╏
 ╔  Caesar
 ╚  HILL
-```
+</pre>
 </b>
 <b id="lang"> System languages</b>
-```
+<pre>
 ┎Sytem languages
 ╏
 ╔  uz (Uzbek)
 ╠  ru (Russian)
 ╚  en (English)
-```
+</pre>
 <h2>🔥I'm glad you found my program useful, if you have any questions, please contact me!</h2>
 <h2>📩Contact: <a href="https://t.me/akhatkulov">LINK</a></h2>
 <br> <br>

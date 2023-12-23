@@ -13,17 +13,16 @@ The author does not respond to your actions</b></i></i> <br>
 <h1 id="install">📁	How to install?</h1>
 <h3>There are two ways to install the program:</h3>
 <h4>➖The first way: </h4> 
-
-<copy>
+<pre>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
 cd InstaCracer-CLI
 python3 setup.py
-</copy>
+</pre>
 <h4>➖The second way:</h4>
-<code>
+<pre>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
 cd InstaCracer-CLI
-</code>
+</pre>
 <h4>➖and install this libraries:</h4>
 <pre>
 ┎  Libraries

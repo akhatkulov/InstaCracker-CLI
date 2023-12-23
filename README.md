@@ -14,16 +14,16 @@ The author does not respond to your actions</b></i></i> <br>
 <h3>There are two ways to install the program:</h3>
 <h4>➖The first way: </h4> 
 
-```
+<copy>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
 cd InstaCracer-CLI
 python3 setup.py
-```
+</copy>
 <h4>➖The second way:</h4>
-```
+<code>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
 cd InstaCracer-CLI
-```
+</code>
 <h4>➖and install this libraries:</h4>
 <pre>
 ┎  Libraries

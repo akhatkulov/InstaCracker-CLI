@@ -7,7 +7,7 @@ The author does not respond to your actions</b></i></i> <br>
 <h1>💡Questions:</h1>
 <h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#install">How to install?</a></h3>
 <h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#use">How to use?</a></h3>
-<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#crack_types">Why do we need it?</a></h3>
+<h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#passwords">What passwords can it crack?</a></h3>
 <h3><a href="https://github.com/akhatkulov/InstaCracker-CLI#lang">What languages ​​does the program work in?</a></h3>
 
 <h1 id="install">📁	How to install?</h1>
@@ -46,7 +46,7 @@ Run:<code>python3 app.py</code>
 
 <b id="crack_types">
 <pre>
-┎  Crack Types 
+┎  Passwords
 ╏
 ╔  Directions for cracking passwords between 6 and 14 characters long
 ╠  2023 Top Passwords

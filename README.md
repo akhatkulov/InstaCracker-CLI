@@ -48,8 +48,9 @@ Run:<code>python3 app.py</code>
 <pre>
 ┎  Crack Types 
 ╏
-╔  Caesar
-╚  HILL
+╔  Directions for cracking passwords between 6 and 14 characters long
+╠  2023 Top Passwords
+╚  Default passwords
 </pre>
 </b>
 <b id="lang"> System languages</b>

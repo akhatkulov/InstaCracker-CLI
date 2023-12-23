@@ -1,4 +1,4 @@
-<b style="text-align: center;"> <h1> InstaCracker - CLI </h1> </b>
+<b style="text-align: center;"> <h1> 🎁InstaCracker - CLI </h1> </b>
 <hr>
 <i><b>Disclaimer: : This GitHub repository is created for information and style purposes only. The codes and files in this repository have not been lost for the purpose of creating or exploiting cyber-weapons. Before studying, using, or copying code in a repository, it is recommended that you conduct scientific practices whenever possible and that these practices comply with legal and ethical requirements. EXCEPTIONS TO THE PROCESSING AND USE OF THE CODE OR FILES MAY BE INCREASEDLY RESPONSIBLE AND THEREFORE, ERRORS, LOSSES, LOSS OF DATA OR OTHER DAMAGES MAY OCCUR. Therefore, before deciding whether to use the codes in this repository, it is recommended that you understand the risks of corruption in the process of using them.
 The author does not respond to your actions</b></i></i> <br>
@@ -15,15 +15,15 @@ The author does not respond to your actions</b></i></i> <br>
 <h4>➖The first way: </h4> 
 
 ```
-git clone https://github.com/akhatkulov/UzChipher-CLI.git
-cd UzChipher-CLI
+git clone https://github.com/akhatkulov/InstaCracker-CLI.git
+cd InstaCracer-CLI
 python3 setup.py
 ```
 <h4>➖The second way:</h4>
 
 ```
-git clone https://github.com/akhatkulov/UzChipher-CLI.git
-cd UzChipher-CLI
+git clone https://github.com/akhatkulov/InstaCracker.git
+cd InstaCracker-CLI
 ```
 
 <h4>➖and install this libraries:</h4>

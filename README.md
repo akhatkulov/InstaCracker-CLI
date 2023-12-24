@@ -41,7 +41,7 @@ For example: <code>python3 app.py 6 redops</code>
 <h5 id="lang">📌First we call the program through "python3 app.py" then we say the length of the password, and after that we enter the username. If you do not know the length of the password, write "default" instead of the length</h5>
 
 <h4>➖Second way is very simple and easy:</h4>
-Run:<code>python3 app.py "password type" "username" </code>
+Run:<code>python3 app.py</code>
 <hr>
 
 <b id="crack_types">

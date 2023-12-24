@@ -13,6 +13,7 @@ if a == 1:
     os.system("git clone https://aur.archlinux.org/yay.git")
     os.system('cd yay')
     os.system('makepkg -si')
+    o.system('sudo pacman -S python-requests')
     os.system('sudo pacman -S python-typer')
     os.system("yay -S python-inquirer")
     os.system('sudo pacman -S python-tabulate')

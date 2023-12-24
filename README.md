@@ -37,11 +37,11 @@ cd InstaCracer-CLI
 <h1 id="use"> 📋How to use? </h1>
 <h3>There are two ways to use it:</h3>
 <h4>➖First way is one line:</h4>
-For example: <code>python3 app.py hill m--encode uz</code>
-<h5 id="lang">📌First we call the program through "python3 app.py" and specify the required encryption method i.e. "hill". Then we tell it the mode, for example "m--encode". At the end, the program should communicate with us in any language, for example, "en", that is, English</h5>
+For example: <code>python3 app.py 6 redops</code>
+<h5 id="lang">📌First we call the program through "python3 app.py" then we say the length of the password, and after that we enter the username. If you do not know the length of the password, write "default" instead of the length</h5>
 
 <h4>➖Second way is very simple and easy:</h4>
-Run:<code>python3 app.py</code>
+Run:<code>python3 app.py "password type" "username" </code>
 <hr>
 
 <b id="crack_types">
@@ -55,7 +55,7 @@ Run:<code>python3 app.py</code>
 </b>
 <b id="lang"> System languages</b>
 <pre>
-┎Sytem languages
+┎  Sytem languages
 ╏
 ╔  uz (Uzbek)
 ╠  ru (Russian)

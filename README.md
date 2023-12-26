@@ -15,13 +15,13 @@ The author does not respond to your actions</b></i></i> <br>
 <h4>➖The first way: </h4> 
 <pre>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
-cd InstaCracer-CLI
+cd InstaCracker-CLI
 python3 setup.py
 </pre>
 <h4>➖The second way:</h4>
 <pre>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
-cd InstaCracer-CLI
+cd InstaCracker-CLI
 </pre>
 <h4>➖and install this libraries:</h4>
 <pre>

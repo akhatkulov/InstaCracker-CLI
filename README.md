@@ -1,4 +1,4 @@
-<img href="pics/photo_2023-12-26_14-15-14.jpg">
+<img align="center" src="pics/photo_2023-12-26_14-15-14.jpg">
 
 <b style="text-align: center;"> <h1> 💎InstaCracker - CLI </h1> </b>
 <hr>

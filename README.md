@@ -65,6 +65,6 @@ Run:<code>python3 app.py</code>
 ╚  en (English)
 </pre>
 <h2>🔥I'm glad you found my program useful, if you have any questions, please contact me!</h2>
-<h2> Community for questions: <a href="https://t.me/+tmN2hmIaT1EwNjQy">LINK</a> </h2>
+<!-- <h2> Community for questions: <a href="https://t.me/+tmN2hmIaT1EwNjQy">LINK</a> </h2> -->
 <h2>📩Contact: <a href="https://t.me/akhatkulov">LINK</a></h2>
 <br> <br>

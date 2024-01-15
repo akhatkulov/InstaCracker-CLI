@@ -22,7 +22,7 @@ if a == 1:
     os.system("python3 app.py")
 elif a == 2:
     print('Installing...')
-    os.system('pip install typer')
+    os.system('pip install "typer[all]"')
     os.system('pip install requests')
     os.system('pip install colorama')
     os.system('pip install inquirer')
@@ -31,7 +31,7 @@ elif a == 2:
     os.system("python3 app.py")
 elif a == 3:
     print('Installing...')
-    os.system('pip install typer')
+    os.system('pip install "typer[all]"')
     os.system('pip install colorama')
     os.system('pip install requests')
     os.system('pip install inquirer')
@@ -41,7 +41,7 @@ elif a == 3:
 elif a == 4:
 
     print('Installing...')
-    os.system('pip install typer')
+    os.system('pip install "typer[all]"')
     os.system('pip install inquirer')
     os.system('pip install colorama')
     os.system('pip install tabulate')
@@ -49,7 +49,7 @@ elif a == 4:
     os.system("python3 app.py")
 else:
     print('Installing...')
-    os.system('pip install typer')
+    os.system('pip install "typer[all]"')
     os.system('pip install requests')
     os.system('pip install inquirer')
     os.system('pip install tabulate')

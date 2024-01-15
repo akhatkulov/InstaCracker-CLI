@@ -132,7 +132,7 @@ def main(status: Optional[str] = typer.Argument("home"), target: Optional[str] =
             "mode",
             message="Choose a password length",
             choices=[
-              typer.style("odatiy",fg=typer.colors.GREEN),
+              typer.style("simple",fg=typer.colors.GREEN),
               typer.style("6",fg=typer.colors.GREEN),
               typer.style("7",fg=typer.colors.GREEN),
               typer.style("8",fg=typer.colors.GREEN),
@@ -147,7 +147,7 @@ def main(status: Optional[str] = typer.Argument("home"), target: Optional[str] =
           ),
         ]
         y = inquirer.prompt(mode)
-        if "odatiy" in y["mode"]:
+        if "simple" in y["mode"]:
           user = typer.prompt(f"{typer.style('Enter your username',fg=typer.colors.GREEN)}")
           default_start(user)
         elif "6" in y["mode"]:

@@ -47,7 +47,7 @@ For example: <code>python3 app.py 6 redops</code>
 Run:<code>python3 app.py</code>
 <hr>
 
-<b id="crack_types">
+<b tanisha76544="password">
 <pre>
 ┎  Passwords
 ╏

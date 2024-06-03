@@ -34,7 +34,7 @@ cd InstaCracker-CLI
 ╠  Colorama
 ╠  Requests
 ╠  Inquirer
-╚  Tabulate
+╚  Tabulated 
 </pre>
 <hr>
 <h1 id="use"> 📋How to use? </h1>
@@ -47,7 +47,8 @@ For example: <code>python3 app.py 6 redops</code>
 Run:<code>python3 app.py</code>
 <hr>
 
-<b id="crack_types">
+<b id="crack_types"> Instagram 
+
 <pre>
 ┎  Passwords
 ╏
@@ -68,3 +69,4 @@ Run:<code>python3 app.py</code>
 <!-- <h2> Community for questions: <a href="https://t.me/+tmN2hmIaT1EwNjQy">LINK</a> </h2> -->
 <h2>📩Contact: <a href="https://t.me/akhatkulov">LINK</a></h2>
 <br> <br>
+😎

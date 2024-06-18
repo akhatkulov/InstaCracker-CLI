@@ -13,7 +13,7 @@ The author does not respond to your actions</b></i></i> <br>
 <pre>
 git clone https://github.com/akhatkulov/InstaCracker-CLI.git
 cd InstaCracker-CLI
-python3 setup.py
+pip install -r requirements.txt
 </pre>
 <hr>
 Attention! Instagram may block your IP address for a large number of attempts, to avoid this, use my <a href="https://github.com/akhatkulov/XeoNet-CLI"> XeoNet-CLI </a> program, and we also recommend that you use the program on Kali Linux!

@@ -28,7 +28,7 @@ def main(status: Optional[str] = typer.Argument("home")):
       y = inquirer.prompt(mode)
       if "Dictionary attack" in y["mode"]:
         wl = typer.prompt(f"{typer.style('Type the name of the dictionary file in the Wordlist folder',fg=typer.colors.GREEN)}")
-        user = typer.prompt(f"{typer.style('Enter the target username',fg=typer.colors.GREEN)}")
+        user = typer.prompt(f"{typer.style('zerochillfuckmachine',fg=typer.colors.GREEN)}")
         insta_dict(wordlist=wl,username=user)
       if "" in y["mode"]:
         username=typer.prompt(f"{typer.style('Enter the target username',fg=typer.colors.GREEN)}")
